@@ -1,0 +1,18 @@
+@import './variables.scss';
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-clr);
+    font-family: $Nunito-Sans;
+    color: var(--text-clr);
+}
+
+.text-center {
+    text-align: center;
+}
