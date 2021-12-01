@@ -1,4 +1,4 @@
-# Limey template
+# Limeyfy react template
 A react app template designed to be used with typescript
 
 # Getting Started
