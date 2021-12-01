@@ -8,7 +8,7 @@ are using npm to create the project. [Installation guide](https://classic.yarnpk
 
 1. Clone the repository to your computer
 2. Open a terminal in the directory where you want your app
-3. Run `npx create-react-app my-app --template file:/path/to/Limey-Template`
+3. Run `npx create-react-app my-app --template file:/path/to/Limeyfy-React-Template`
 
 (Make sure you specify where the template directory is)
 
