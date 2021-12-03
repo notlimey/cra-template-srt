@@ -21,4 +21,6 @@ and
 Now your app should be working!
 
 
-Inspired by joaisa17's Craco-Template
+
+
+`Inspired by joaisa17's Craco-Template`
