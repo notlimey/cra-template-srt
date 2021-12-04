@@ -7,7 +7,7 @@ import FavIcon from '@Assets/favicon.ico';
 // Description = A simple description of the website
 
 const WebsiteUrl = window.location.href; // Full url of the website E.g https://limeyfy.no
-const DefaultTitle = "Test app"; // Default title incase you dont want to set the title every time you use the DefaultHelmet
+const DefaultTitle = "RTS template"; // Default title incase you dont want to set the title every time you use the DefaultHelmet
 const ThemeColor = "#000000" // The theme color of the website
 const DefaultDescription = 
     `This is a react application made with React-Typescript structured template (https://github.com/NotLimey/React-Typescript-Structured-Template)`
