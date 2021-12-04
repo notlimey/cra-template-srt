@@ -1,14 +1,14 @@
-# React-Typescript Structured Template
-A react app template designed to be used with typescript
+# React-Typescript Structured Template or RTS Template
+A structured react-typescript template <br />
+`Preinstalled packages` React-Helmet, React-Router-Dom, Node-Sass And Craco <br />
+
+React-Router is already set up with path home and a not found page
 
 # Getting Started
 
-Note: This template was constructed with yarn. You may encounter issues if you
-are using npm to create the project. [Installation guide](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
-
 1. Clone the repository to your computer
 2. Open a terminal in the directory where you want your app
-3. Run `npx create-react-app my-app --template file:/path/to/Limeyfy-React-Template`
+3. Run `npx create-react-app my-app --template file:/path/to/React-Typescript Structured Template`
 
 (Make sure you specify where the template directory is)
 
@@ -20,7 +20,9 @@ and
 
 Now your app should be working!
 
-`Inspired by joaisa17's Craco-Template`
+#### This template was inspired by **Joaisa17**'s [Craco-Template](https://github.com/joaisa17/Craco-Template)
+
+# Components
 
 ## Default Helmet
 Default helmet is the default react-helmet that comes with this template. It is made to make it easier for you to keep good SEO on your website with as little as possible work.
