@@ -27,7 +27,7 @@ Default helmet is the default react-helmet that comes with this template. It is 
 
 ### Parameters
 `Title` The title of the website. You don't have to set the title each time, you can just set a `DefaultTitle` in the DefaultHelemet file. <br />
-`Description` The description of the website. You don't have to set the description each time, you can just set a `DefaultDescription` in the DefaultHelemet file.<br />
+`Description` The description of the website. You don't have to set the description each time, you can just set a **DefaultDescription** in the DefaultHelemet file.<br />
 `SubTitle` is the subtitle E.g 'Title | SubTitle'<br />
 `MetaImage` The image which is shown when the website appears in a search<br />
 
