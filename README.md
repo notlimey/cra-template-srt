@@ -2,6 +2,8 @@
 A structured react-typescript template <br />
 `Preinstalled packages` React-Helmet, React-Router-Dom, Node-Sass And Craco <br />
 
+React-Router is already set up with path home and a not found page
+
 # Getting Started
 
 1. Clone the repository to your computer
