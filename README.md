@@ -32,6 +32,6 @@ Default helmet is the default react-helmet that comes with this template. It is 
  - `MetaImage` The image which is shown when the website appears in a search<br />
 
 ### Parameters inside the DefaultHelmet.tsx file
-`DefaultTitle` is the default title of the website so you don't need to set the title on every page. <br />
-`DefaultDescription` is the default description of the website so you don't need to set the description on every page. <br />
-`ThemeColor` is the theme color of the website. The default is #000000
+ - `DefaultTitle` is the default title of the website so you don't need to set the title on every page. <br />
+ - `DefaultDescription` is the default description of the website so you don't need to set the description on every page. <br />
+ - `ThemeColor` is the theme color of the website. The default is #000000
