@@ -28,14 +28,16 @@ const DefaultHelmet = ({Title, Description, SubTitle, MetaImage} : any) => {
             <meta property="og:url" content={WebsiteUrl}  />
             <meta property="og:title" content={SubTitle ? `${Title ? Title : DefaultTitle} | ${SubTitle}` : `${Title}`} />
             <meta property="og:description" content={Description ? Description : DefaultDescription} />
-            <meta property="og:image" content={MetaImage} />
+            
+            {MetaImage && <meta property="og:image" content={MetaImage} />}
 
             {/* Twitter */}
             <meta property="twitter:card" content="summary_large_image" />
             <meta property="twitter:url" content={WebsiteUrl} />
             <meta property="twitter:title" content={SubTitle ? `${Title ? Title : DefaultTitle} | ${SubTitle}` : `${Title}`} />
             <meta property="twitter:description" content={Description ? Description : DefaultDescription} />
-            <meta property="twitter:image" content={MetaImage}></meta>
+            
+            {MetaImage && <meta property="twitter:image" content={MetaImage}></meta>}
 
             {/* Apple */}
             <meta name="apple-mobile-web-app-title" content={SubTitle ? `${Title ? Title : DefaultTitle} | ${SubTitle}` : `${Title}`} />
