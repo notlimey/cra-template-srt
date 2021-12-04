@@ -26,10 +26,10 @@ Now your app should be working!
 Default helmet is the default react-helmet that comes with this template. It is made to make it easier for you to keep good SEO on your website with as little as possible work.
 
 ### Parameters
-`Title` The title of the website. You don't have to set the title each time, you can just set a `DefaultTitle` in the DefaultHelemet file. <br />
-`Description` The description of the website. You don't have to set the description each time, you can just set a **DefaultDescription** in the DefaultHelemet file.<br />
-`SubTitle` is the subtitle E.g 'Title | SubTitle'<br />
-`MetaImage` The image which is shown when the website appears in a search<br />
+ - `Title` The title of the website. You don't have to set the title each time, you can just set a `DefaultTitle` in the DefaultHelemet file. <br />
+ - `Description` The description of the website. You don't have to set the description each time, you can just set a **DefaultDescription** in the DefaultHelemet file.<br />
+ - `SubTitle` is the subtitle E.g 'Title | SubTitle'<br />
+ - `MetaImage` The image which is shown when the website appears in a search<br />
 
 ### Parameters inside the DefaultHelmet.tsx file
 `DefaultTitle` is the default title of the website so you don't need to set the title on every page. <br />
