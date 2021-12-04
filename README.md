@@ -44,3 +44,5 @@ Combind Classes is a component which is used when you want to add a class condit
 #### Here is an example:
 
 <code>CombineClasses('cart', cartItems.length >= 10 ? 'cart-plus9' : undefined)</code>
+
+Thank you for using my template. If you like it I would appreciate it if you gave it a star
