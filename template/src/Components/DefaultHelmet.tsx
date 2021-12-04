@@ -2,17 +2,19 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import FavIcon from '@Assets/favicon.ico';
 
-// Tilte = Websites Title
+// Default helmet is the default react-helmet that comes with this template. It is made to make it easier for you to keep good SEO on your website with as little as possible work.
+
+// Tilte = The title of the website. You don't have to set the title each time, you can just set a DefaultTitle in the DefaultHelemet file. 
 // SubTitle = is the subtitle E.g Title | Subtitle
-// Description = A simple description of the website
+// Description = The description of the website. You don't have to set the description each time, you can just set a DefaultDescription in the DefaultHelemet file.
+// MetaImage = The image which is shown when the website appears in a search
 
 const WebsiteUrl = window.location.href; // Full url of the website E.g https://limeyfy.no
-const DefaultTitle = "RTS template"; // Default title incase you dont want to set the title every time you use the DefaultHelmet
-const ThemeColor = "#000000" // The theme color of the website
+const DefaultTitle = "RTS Template"; // s the default title of the website so you don't need to set the title on every page. 
+const ThemeColor = "#000000" // is the theme color of the website. The default is #000000
 const DefaultDescription = 
     `This is a react application made with React-Typescript structured template (https://github.com/NotLimey/React-Typescript-Structured-Template)`
-// Set your default description here, so you dont need to set it on every page
-
+// is the default description of the website so you don't need to set the description on every page. 
 
 const DefaultHelmet = ({Title, Description, SubTitle, MetaImage} : any) => {
 
