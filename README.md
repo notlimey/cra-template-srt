@@ -1,5 +1,4 @@
 # SRT-Template / Structured React-Typescript Template
-A structured react-typescript template <br />
 `Preinstalled packages` React-Helmet, React-Router-Dom, Node-Sass And Craco <br />
 
 React-Router is already set up with path home and a not found page
@@ -8,7 +7,7 @@ React-Router is already set up with path home and a not found page
 
 1. Clone the repository to your computer
 2. Open a terminal in the directory where you want your app
-3. Run `npx create-react-app my-app --template file:/path/to/React-Typescript Structured Template`
+3. Run `npx create-react-app my-app --template file:/path/to/SRT-Template`
 
 (Make sure you specify where the template directory is)
 
