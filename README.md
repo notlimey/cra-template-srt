@@ -24,7 +24,7 @@ Now your app should be working!
 # Components
 
 ## Default Helmet
-Default helmet is the default react-helmet that comes with this template. It is made to make it easier for you to keep good SEO on your website with as little as possible work.
+Default helmet is the default react-helmet that comes with this template. It is made to make it easier for you to keep good SEO on your website with as little work as possible.
 
 ### Parameters
  - `Title` The title of the website. You don't have to set the title each time, you can just set a `DefaultTitle` in the DefaultHelemet file. <br />
