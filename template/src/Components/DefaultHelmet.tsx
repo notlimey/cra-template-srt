@@ -11,14 +11,16 @@ const DefaultTitle = "Test app"; // Default title incase you dont want to set th
 const ThemeColor = "#000000" // The theme color of the website
 const DefaultDescription = 
     `This is a react application made with React-Typescript structured template (https://github.com/NotLimey/React-Typescript-Structured-Template)`
+// Set your default description here, so you dont need to set it on every page
+
 
 const DefaultHelmet = ({Title, Description, SubTitle, MetaImage} : any) => {
 
     return (
         <Helmet>
             {/* Primary Meta Tags */}
-            <title>{SubTitle ? `${Title ? Title : DefaultTitle} | ${SubTitle}` : `${Title}`}</title>
-            <meta name="title" content={SubTitle ? `${Title ? Title : DefaultTitle} | ${SubTitle}` : `${Title}`} />
+            <title>{Title ? Title : `${DefaultTitle}${SubTitle ? ` | ${SubTitle}` : ""}`}</title>
+            <meta name="title" content={Title ? Title : `${DefaultTitle}${SubTitle ? ` | ${SubTitle}` : ""}`} />
             <meta name="application-name" content={SubTitle ? `${Title ? Title : DefaultTitle} | ${SubTitle}` : `${Title}`} />
 
             <meta name="description" content={Description ? Description : DefaultDescription} />
@@ -26,7 +28,7 @@ const DefaultHelmet = ({Title, Description, SubTitle, MetaImage} : any) => {
             {/* Open Graph / Facebook */}
             <meta property="og:type" content="website" />
             <meta property="og:url" content={WebsiteUrl}  />
-            <meta property="og:title" content={SubTitle ? `${Title ? Title : DefaultTitle} | ${SubTitle}` : `${Title}`} />
+            <meta property="og:title" content={Title ? Title : `${DefaultTitle}${SubTitle ? ` | ${SubTitle}` : ""}`} />
             <meta property="og:description" content={Description ? Description : DefaultDescription} />
             
             {MetaImage && <meta property="og:image" content={MetaImage} />}
@@ -34,13 +36,13 @@ const DefaultHelmet = ({Title, Description, SubTitle, MetaImage} : any) => {
             {/* Twitter */}
             <meta property="twitter:card" content="summary_large_image" />
             <meta property="twitter:url" content={WebsiteUrl} />
-            <meta property="twitter:title" content={SubTitle ? `${Title ? Title : DefaultTitle} | ${SubTitle}` : `${Title}`} />
+            <meta property="twitter:title" content={Title ? Title : `${DefaultTitle}${SubTitle ? ` | ${SubTitle}` : ""}`} />
             <meta property="twitter:description" content={Description ? Description : DefaultDescription} />
             
             {MetaImage && <meta property="twitter:image" content={MetaImage}></meta>}
 
             {/* Apple */}
-            <meta name="apple-mobile-web-app-title" content={SubTitle ? `${Title ? Title : DefaultTitle} | ${SubTitle}` : `${Title}`} />
+            <meta name="apple-mobile-web-app-title" content={Title ? Title : `${DefaultTitle}${SubTitle ? ` | ${SubTitle}` : ""}`} />
 	
             <link rel="apple-touch-icon" sizes="180x180" href={FavIcon} ></link>
 
