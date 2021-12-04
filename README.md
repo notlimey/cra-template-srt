@@ -1,4 +1,4 @@
-# React-Typescript Structured Template or RTS Template
+# SRT-Template / Structured React-Typescript Template
 A structured react-typescript template <br />
 `Preinstalled packages` React-Helmet, React-Router-Dom, Node-Sass And Craco <br />
 
