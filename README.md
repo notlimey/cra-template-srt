@@ -39,4 +39,4 @@ Default helmet is the default react-helmet that comes with this template. It is 
 
 ## CombindClasses
 
-Combind Classes is a component which is used when you want to add a class conditionally. It takes two parameters `classes which you want to be on component no matter what(a)` and `class / classes which will only be added if condition is met(b)` 
+Combind Classes is a component which is used when you want to add a class conditionally. It takes two parameters `a`(classes which you want to be on component no matter what) and `b`(class / classes which will only be added if condition is met) 
