@@ -37,7 +37,7 @@ Default helmet is the default react-helmet that comes with this template. It is 
  - `DefaultDescription` is the default description of the website so you don't need to set the description on every page. <br />
  - `ThemeColor` is the theme color of the website. The default is #000000
 
-## CombindClasses
+## CombineClasses
 
 Combind Classes is a component which is used when you want to add a class conditionally. It takes two parameters `a`**(classes which you want to be on component no matter what)** and `b`**(class / classes which will only be added if condition is met)**
 
