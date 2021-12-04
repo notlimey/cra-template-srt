@@ -20,7 +20,7 @@ and
 
 Now your app should be working!
 
-
-
-
 `Inspired by joaisa17's Craco-Template`
+
+## Default Helmet
+Default helmet is the default react-helmet that comes with this template. It is made to make it easier for you to keep good SEO on your website with as little as possible work.
