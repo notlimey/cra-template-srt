@@ -1,7 +1,6 @@
 {
-  "name": "template-app",
+  "name": "cra-template-srt-template",
   "version": "1.0.0",
-  "private": true,
   "dependencies": {
     "@craco/craco": "7.0.0-alpha.0",
     "@testing-library/jest-dom": "^5.16.1",
