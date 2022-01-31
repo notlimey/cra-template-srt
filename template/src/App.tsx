@@ -1,7 +1,7 @@
 import '@Scss/main.scss'
 import React from 'react';
 import { Route, Routes } from 'react-router'
-import DefaultHelmet from './Components/DefaultHelmet';
+import { DefaultHelmet } from 'nl-ui';
 import Home from './Pages/Home';
 import NotFound from './Pages/NotFound';
 
