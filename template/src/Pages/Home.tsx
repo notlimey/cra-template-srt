@@ -6,7 +6,7 @@ const Home = () => {
         <React.Fragment>
             <div className="text-center welcome-app">
                 <h1>Welcome to React-Typescript</h1>
-                <p>Thanks for using <code>React-Typescript Structured Template!</code></p>
+                <p>Thanks for using <code>SRT Template!</code></p>
                 <div className="spinning-logo">
                     <img src={Logo} alt="Limeyfy logo" />
                 </div>
