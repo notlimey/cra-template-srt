@@ -8,7 +8,7 @@ import NotFound from './Pages/NotFound';
 function App() {
   return (
     <React.Fragment>
-      <DefaultHelmet />
+      <DefaultHelmet title="SRT" />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
