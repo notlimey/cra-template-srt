@@ -1,12 +1,12 @@
-import DefaultHelmet from "@/Components/DefaultHelmet";
-import NotFoundComponent from "@/Components/NotFoundComponent";
+import { DefaultHelmet } from "nl-ui";
+import NotFoundComponent from "@components/NotFoundComponent";
 import React from "react";
 
 const NotFound = () => {
     return (
         <React.Fragment>
             <DefaultHelmet 
-                SubTitle="404 Not found"
+                title="404 Not found"
             />
             <NotFoundComponent />
         </React.Fragment>

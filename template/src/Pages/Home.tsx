@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from '@Images/LimeyfyLogo.png'
+import Logo from '@assets/Images/LimeyfyLogo.png'
 
 const Home = () => {
     return (

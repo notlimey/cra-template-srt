@@ -5,13 +5,10 @@
         "paths": {
             "@/*": ["./*"],
 
-            "@Assets/*": ["./Assets/*"],
-            "@Components/*": ["./Components/*"],
-            "@Pages/*": ["./Pages/*"],
-            "@Scss/*": ["./Scss/*"],
-            "@Images/*": ["./Assets/Images/*"],
-            "@Files/*": ["./Assets/Files/*"],
-            "@Helpers/*": ["./Helpers/*"]
+            "@assets/*": ["./assets/*"],
+            "@components/*": ["./components/*"],
+            "@pages/*": ["./pages/*"],
+            "@scss/*": ["./scss/*"]
         }
     }
 }
