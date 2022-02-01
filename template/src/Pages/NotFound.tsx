@@ -1,4 +1,5 @@
 import DefaultHelmet from "@/Components/DefaultHelmet";
+import NotFoundComponent from "@/Components/NotFoundComponent";
 import React from "react";
 
 const NotFound = () => {
@@ -7,7 +8,7 @@ const NotFound = () => {
             <DefaultHelmet 
                 SubTitle="404 Not found"
             />
-            <h1 className="text-center">Page not found</h1>
+            <NotFoundComponent />
         </React.Fragment>
     );
 }
