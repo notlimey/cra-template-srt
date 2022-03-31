@@ -1,13 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
-import App from '@/App';
+import App from './App';
 
-// console.log("Made by [You'r name here]");
+const container = document.getElementById('root');
+if (!container) throw new Error("Element with id 'root' does not exist. Cannot initiate app with no container.")
 
-ReactDOM.render(
+const root = createRoot(container);
+
+root.render(
   <BrowserRouter>
     <App />
-  </BrowserRouter>,
-  document.getElementById('root')
+  </BrowserRouter>
 );
