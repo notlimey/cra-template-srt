@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router'
 import Home from '@pages/Home';
 import NotFound from '@pages/NotFound';
 
-function App() {
+const App = () => {
   return (
     <React.Fragment>
       <Routes>
